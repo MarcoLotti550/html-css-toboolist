@@ -1,6 +1,9 @@
 .title{
     box-sizing: border-box;
     line-height: 50px;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .titolo{
     font-size: 35px;
@@ -12,19 +15,56 @@
     margin-left: 20px;
     vertical-align: middle;
 }
+body{
+    background-color: rgb(223, 223, 223);
+    margin: 0%;
+}
 main{
     box-sizing: border-box;
     width: 70%;
     margin: 5% 10%;
-
+    background-color: white;
+    border-radius: 10px;
+}
+section{
+    padding-left: 5%;
 }
 .pulsanti{
     box-sizing: border-box;
     width: 100%;
-    padding: 2% 8%;
+    padding: 2% 5%;
     border-bottom:solid 1px lightgrey;
 }
 .menutendina{
     font-size: 20px;
     font-weight: bold;
+}
+.menu:before{
+    box-sizing: border-box;
+    border: 1px solid lime;
+    border-radius: 50%;
+    content: "\2713";
+    color: lime;
+    width: 19px;
+    height: 19px;
+    display: inline-block;   
+    text-align: center;
+    font-size: 15px;
+}
+.menu1{
+    box-sizing: border-box;
+    display: inline-block;   
+    font-size: 18px; 
+}
+.menu2{
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 13px;
+    width: 60px;
+    height: 25px;
+    background-color: rgb(80, 150, 255);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
 }
