@@ -68,57 +68,27 @@ section{
     display: inline-block;   
     font-size: 18px; 
 }
-.blu{
+.scatola{
     box-sizing: border-box;
     display: inline-block;
     font-size: 13px;
     width: 70px;
     height: 25px;
-    background-color: rgb(80, 150, 255);
     border-radius: 15px;
     color: white;
     text-align: center;
     padding-top: 5px;
     margin-top: 10px;
-    margin-bottom: 10px;
+}
+.blu{
+    background-color: rgb(80, 150, 255);
 }
 .viola{
-    box-sizing: border-box;
-    display: inline-block;
-    font-size: 13px;
-    width: 70px;
-    height: 25px;
     background-color: rgb(141, 80, 255);
-    border-radius: 15px;
-    color: white;
-    text-align: center;
-    padding-top: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 .verde{
-    box-sizing: border-box;
-    display: inline-block;
-    font-size: 13px;
-    width: 70px;
-    height: 25px;
     background-color: rgb(56, 155, 97);
-    border-radius: 15px;
-    color: white;
-    text-align: center;
-    padding-top: 5px;
-    margin-top: 10px;
 }
 .arancione{
-    box-sizing: border-box;
-    display: inline-block;
-    font-size: 13px;
-    width: 70px;
-    height: 25px;
     background-color: rgb(255, 154, 72);
-    border-radius: 15px;
-    color: white;
-    text-align: center;
-    padding-top: 5px;
-    margin-top: 10px;
 }
