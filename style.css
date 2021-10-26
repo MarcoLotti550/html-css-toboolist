@@ -22,20 +22,42 @@ body{
 main{
     box-sizing: border-box;
     width: 70%;
-    margin: 5% 10%;
+    margin: 5% auto;
     background-color: white;
     border-radius: 10px;
+    padding-bottom: 5%;
 }
 section{
     padding-left: 5%;
 }
-.pulsanti{
+.Add{
     box-sizing: border-box;
     width: 100%;
     padding: 2% 5%;
     border-bottom:solid 1px lightgrey;
 }
-.menutendina{
+.pulsanti{
+    box-shadow: none;
+    width: auto;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 10px;
+}
+.bianco {
+    background-color: white;
+    color: lightgray;
+    border: 1px solid lightgray;
+}
+.blu1{
+    background-color: rgb(80, 150, 255);
+    color: white;
+    border: 1px solid rgb(80, 150, 255);
+
+}
+section{
+    margin: 20px 0px;
+}
+.giorni{
     font-size: 20px;
     font-weight: bold;
 }
@@ -50,6 +72,7 @@ section{
     display: inline-block;   
     text-align: center;
     font-size: 15px;
+    margin: 15px 0;
 }
 .todo:before{
     box-sizing: border-box;
@@ -62,13 +85,15 @@ section{
     display: inline-block;   
     text-align: center;
     font-size: 15px;
+    margin: 15px 0;
 }
-.menu1{
+.appu{
     box-sizing: border-box;
     display: inline-block;   
     font-size: 18px; 
+
 }
-.scatola{
+.categorie{
     box-sizing: border-box;
     display: inline-block;
     font-size: 13px;
@@ -92,3 +117,10 @@ section{
 .arancione{
     background-color: rgb(255, 154, 72);
 }
+.giallo{
+    background-color: rgb(167, 204, 0);
+}
+.rosa{
+    background-color: palevioletred;
+}
+
