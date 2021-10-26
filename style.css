@@ -39,7 +39,7 @@ section{
     font-size: 20px;
     font-weight: bold;
 }
-.menu:before{
+.doit:before{
     box-sizing: border-box;
     border: 1px solid lime;
     border-radius: 50%;
@@ -51,20 +51,74 @@ section{
     text-align: center;
     font-size: 15px;
 }
+.todo:before{
+    box-sizing: border-box;
+    border: 1px solid rgb(177, 3, 3);
+    border-radius: 50%;
+    content: "\2717";
+    color: rgb(177, 3, 3);
+    width: 19px;
+    height: 19px;
+    display: inline-block;   
+    text-align: center;
+    font-size: 15px;
+}
 .menu1{
     box-sizing: border-box;
     display: inline-block;   
     font-size: 18px; 
 }
-.menu2{
+.blu{
     box-sizing: border-box;
     display: inline-block;
     font-size: 13px;
-    width: 60px;
+    width: 70px;
     height: 25px;
     background-color: rgb(80, 150, 255);
-    border-radius: 10px;
+    border-radius: 15px;
     color: white;
     text-align: center;
     padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.viola{
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 13px;
+    width: 70px;
+    height: 25px;
+    background-color: rgb(141, 80, 255);
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.verde{
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 13px;
+    width: 70px;
+    height: 25px;
+    background-color: rgb(56, 155, 97);
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+.arancione{
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 13px;
+    width: 70px;
+    height: 25px;
+    background-color: rgb(255, 154, 72);
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 10px;
 }
